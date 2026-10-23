@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #add8e6;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+#aik, #dif, #hif{
+    flex-direction: column;
+    width: 20%;
+}   
+p{
+    align-items: center;
+    vertical-align: end;
+}
